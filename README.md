@@ -15,6 +15,7 @@ else:
 tip = int(input("If you want,Enter amount of tip: Rs"))
 if tip <= 0:
     print("No tip added ")
+    each_pay = float(total_bill/friends)
 else: 
     Bill_tip = total_bill + tip 
     each_pay = float(Bill_tip / friends) 
